@@ -50,12 +50,16 @@ function syntax() {
 			}
 	} ;
 
+    // Block containing label
+    {async:0}
+    // Label
+    async: async;
+	// Obj Expression
 	({async:0});
-
+	// Obj Expression
 	a = {async:0};
-	{async:0};
-	async: async;
-
+	
+	// Reference
 	await;
 
 	a = {await:0};
